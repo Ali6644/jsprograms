@@ -23,13 +23,29 @@
 
 
 
+
+
 // start get squre root of a number 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
 let a = +prompt("enter a number to get sqaure root of your puted number")
 let b = Math.sqrt(a)
 let c = Math.round(b)
 console.log(c)
-// start get squre root of a number 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// end get squre root of a number 
 
 
+
+
+
+// start to find the value of right angled triangle  
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+let base = prompt("enter the value of base of the right riangle");
+let higeht = prompt("enter the value of highet of the right riangle");
+function triangleValue(){
+    return base*higeht/2;
+};
+let resultTriangleValue = triangleValue();
+console.log(resultTriangleValue);
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// end to find the value of right angled triangle  
