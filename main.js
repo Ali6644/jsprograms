@@ -56,13 +56,37 @@
 
 // start to find the area of reguler triangle
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
-let a = +prompt("enter the first side value of reguler triangle");
-let b = +prompt("enter the first side value of reguler triangle");
-let c = +prompt("enter the first side value of reguler triangle");
-let s = (a+b+c)/2;
-let totalArea = s*(s-a)*(s-b)*(s-c);
-let squreOfTotal = Math.sqrt(totalArea);
-console.log(squreOfTotal);
+// let a = +prompt("enter the first side value of reguler triangle");
+// let b = +prompt("enter the first side value of reguler triangle");
+// let c = +prompt("enter the first side value of reguler triangle");
+// let s = (a+b+c)/2;
+// let totalArea = s*(s-a)*(s-b)*(s-c);
+// let squreOfTotal = Math.sqrt(totalArea);
+// console.log(squreOfTotal);
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
 // end to find the area of reguler triangle
 
+
+
+
+// start swap tow number using and without using temprory variable 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// swap using temprory variable 
+let a = +prompt("enter the first value for swaping");
+let b = +prompt("enter the second value for swaping");
+console.log(`the first value is: ${a}, the second value is: ${b}`)
+let temp ; 
+temp = a ;
+a = b;
+b = temp;
+console.log(`after swaping \n the first value is: ${a}, the second value is: ${b}`)
+
+// swap using temprory variable 
+let c = +prompt("enter the first value of swapning without using temprory variable")
+let d = +prompt("enter the second value of swapning without using temprory variable")
+ c = c + d;
+ d = c - d;
+ c = c - d; 
+ console.log(`it is the first value of swaping without using variable> ${c}, it is the second value of swaping withour using variable> ${d}`)
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+ // end swap tow number using and without using temprory variable 
