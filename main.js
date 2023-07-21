@@ -97,11 +97,25 @@
 
 //  start convert kilometers to miles 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
-function convert(){
-    let kms = document.getElementById("data").value;    
-    const foactor = 0.621371
-    let miles = kms * foactor
-   document.getElementById("result").innerText = miles + "miles"
-};
+// function convert(){
+//     let kms = document.getElementById("data").value;    
+//     const foactor = 0.621371
+//     let miles = kms * foactor
+//    document.getElementById("result").innerText = miles + "miles"
+// };
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
 //  end convert kilometers to miles 
+
+
+
+
+
+// start convert celsius to fahrenheit 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// function fahConvert(){
+//     let cels = document.getElementById("fahData").value;
+//     let totalFah = cels * 1.8 + 32;
+//     document.getElementById("farh_result").innerText = totalFah + "Fahrenheit"
+// };
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// end convert celsius to fahrenheit 
