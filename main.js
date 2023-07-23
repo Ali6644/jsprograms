@@ -153,12 +153,61 @@
 
 // start make even or odd number confermation
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
-let a = +prompt("enter a number to check even or odd")
-if(a%2 == 0){
-    document.getElementById("result").innerText = `${a} it is odd number`
-}else{
-    document.getElementById("result").innerText = `${a} it is even number`
+// let a = +prompt("enter a number to check even or odd")
+// if(a%2 == 0){
+//     document.getElementById("result").innerText = `${a} it is even number`
+// }else{
+//     document.getElementById("result").innerText = `${a} it is odd  number`
     
-}
+// }
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
 // end make even or odd number confermation
+
+
+
+
+
+// start find a primery number 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// let number = +prompt("enter a number which you want to get know about promery or not")
+
+// first metod 
+// let a = +prompt("enter a number ")
+// function isPrime(n){
+//     if (n <= 1){
+//         return false
+//     }else{
+//         for(let i = 2; i<=n; i++)
+//         if(n%2 == 0){
+//             return false
+//         }else{
+//             return true
+//         }
+//     }
+// }
+
+// let result = isPrime(a)
+//     console.log(result)
+
+    
+    // second method
+// if(number == 1){
+//     console.log(`${number} is neither a primery or not composite number`)
+// }else if (number <1 ){
+//     console.log(`${number} is neither a primery or not composite number`)
+    
+// }else{
+//     for(let i = 2 ; i <number; i++){
+//         // let num = number%i
+//             // console.log(num)
+//         if(number%i == 0){
+//         console.log(`${number} is not a primery number`)
+//             break;
+//         }else{
+//         console.log(`${number} is  a primery number`)
+            
+//         }
+//     }
+// }
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// end find a primery number 
