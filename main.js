@@ -126,12 +126,39 @@
 
 // start check number is postive negative or zero
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
-    function check(){
-        let value = document.getElementById("CheckData").value;
+    // function check(){
+    //     let value = document.getElementById("CheckData").value;
         
-        let response = Math.sign(value);
-        // alert(response)
-        document.getElementById("result").innerText = response;  
-    };
+    //     // let response = Math.sign(value);
+    //     // alert(response)
+    //     if(value == 0 ){
+    //     document.getElementById("result").innerText =`${value} it is zero`;  
+
+    //     }else if(value > 0){
+    //     document.getElementById("result").innerText =`${value} it is positive number`;  
+            
+    //     }else if(value < 0){
+    //     document.getElementById("result").innerText =`${value } it is negative number`;  
+
+    //     }else{
+    //     document.getElementById("result").innerText =`${value } it is  NaN`;  
+
+    //     } 
+    // };
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
 // end check number is postive negative or zero
+
+
+
+
+// start make even or odd number confermation
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+let a = +prompt("enter a number to check even or odd")
+if(a%2 == 0){
+    document.getElementById("result").innerText = `${a} it is odd number`
+}else{
+    document.getElementById("result").innerText = `${a} it is even number`
+    
+}
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// end make even or odd number confermation
