@@ -246,3 +246,29 @@
 
 
 
+// start to find the factorial of a random number by recursion
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// let a = +prompt("enter the  number to get find a factorial of entered number")
+// let fact = 1;
+// // console.log(fact)
+
+// function recur(n){
+//     if(n>a){
+//         return "complete";
+
+//     }
+//     let temp = fact 
+//     fact = fact*n
+//     console.log(temp + "X" + n + "=" + fact)
+//     n++
+//     recur(n)
+// }
+// let result = recur(1)
+
+// console.log(result)
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// start to find the factorial of a random number by recursion
+
+
+
+
