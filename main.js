@@ -172,22 +172,7 @@
 // let number = +prompt("enter a number which you want to get know about promery or not")
 
 // first metod 
-// let a = +prompt("enter a number ")
-// function isPrime(n){
-//     if (n <= 1){
-//         return false
-//     }else{
-//         for(let i = 2; i<=n; i++)
-//         if(n%2 == 0){
-//             return false
-//         }else{
-//             return true
-//         }
-//     }
-// }
-
-// let result = isPrime(a)
-//     console.log(result)
+// let a = +prompt("enter a numbef
 
     
     // second method
@@ -211,3 +196,31 @@
 // }
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
 // end find a primery number 
+
+
+// start have to find largest number 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// function check(d,e,f){
+//     if(d > e && d>f){
+//         return console.log(`${a} is the largest number`)
+//     }else if(e > d && e > f){
+//         return console.log(`${b} is the largest number`)
+
+//     }else if(f > d && f > e){
+//         return console.log(`${c} is the largest number`)
+
+//     }
+    
+// }
+// let a = +prompt("enter a number to get find the largest number")
+// let b = +prompt("enter the second number to get find  the largest number")
+// let c = +prompt("enter the third number to get find  the largest number")
+
+// let res = check(a,b,c)
+// console.log(res)
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// end have to find largest number 
+
+
+
+
