@@ -290,3 +290,28 @@
  
 
 
+// start make armstrong number 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+let a = +prompt("enter the number which you check armstrong or not");
+let temp = a;
+let sum = 0;
+while(temp > 0){
+    console.log(temp)
+    let digit = temp%10;
+    console.log(digit)
+    
+    sum += digit**3;
+    console.log(sum)
+
+    temp = parseInt(temp/10)
+    console.log(temp)
+
+}
+if(sum == a){
+    document.write(`${a} is an armstrong number`)
+}else{
+    document.write(`${a} is not an armstrong number`)
+
+}
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// end make armstrong number 
