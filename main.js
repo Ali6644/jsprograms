@@ -224,3 +224,25 @@
 
 
 
+// start to find factorial of a random number 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// let a = +prompt("enter the number to get find a factorial")
+// let fact = 1;
+// if(a === 0){
+//     console.log(`the factroial of ${a} is 1`)
+// }else if( a < 0){
+//     console.log(`the factorail fo negative number is not possible`)
+// }else{
+//     for(let i = 1; i<=a ; i++){
+//         fact = fact*i; 
+//     }
+//     console.log(`${fact} this the factorial of your entered number`)
+
+// }
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// end to find factorial of a random number 
+
+
+
+
+
