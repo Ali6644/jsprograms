@@ -292,26 +292,53 @@
 
 // start make armstrong number 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
-let a = +prompt("enter the number which you check armstrong or not");
-let temp = a;
-let sum = 0;
-while(temp > 0){
-    console.log(temp)
-    let digit = temp%10;
-    console.log(digit)
+// let a = +prompt("enter the number which you check armstrong or not");
+// let temp = a;
+// let noOffDigits = a.toString().length;
+// alert(noOffDigits)
+// let sum = 0;
+// while(temp > 0){
+    // console.log(temp)
+    // let digit = temp%10;
+    // console.log(digit)
     
-    sum += digit**3;
-    console.log(sum)
+    // sum += digit**noOffDigits;
+    // console.log(sum)
 
-    temp = parseInt(temp/10)
-    console.log(temp)
+    // temp = parseInt(temp/10)
+    // console.log(temp)
 
-}
-if(sum == a){
-    document.write(`${a} is an armstrong number`)
-}else{
-    document.write(`${a} is not an armstrong number`)
+// }
+// if(sum == a){
+//     document.write(`${a} is an armstrong number`)
+// }else{
+//     document.write(`${a} is not an armstrong number`)
 
-}
+// }
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
 // end make armstrong number 
+
+
+
+
+// start to check last digit is same or not 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// let a = +prompt("enter your first number to check its last digit same or not")
+// let b = +prompt("enter your second number to check its last digit same or not")
+// let c = +prompt("enter your third number to check its last digit same or not")
+
+// let aDivide = a%10; 
+// let bDivide = b%10;
+// let cDivide = c %10;
+
+// if(aDivide == bDivide && aDivide == cDivide){
+//     console.log(`${a} , ${b}  ,${c} `+ "this is has same last digits")
+// }else{
+//     console.log("this not have same last numbers")
+// }
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// start to check last digit is same or not 
+
+
+
+
