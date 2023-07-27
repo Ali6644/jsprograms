@@ -373,3 +373,23 @@
 // }
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
 // end to confirm  it is palindrom string or not 
+
+
+
+
+
+// start to check the number of occurence of a character in loop 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// let a = prompt("enter a numbet chceck the occurence of your string");
+// let alen = a.length
+// let letter = prompt("enter a letter to check occurrence of your enterd string")
+// let counter = 0;
+//     for(let i = 0 ; i<alen; i++){
+//     if(a[i] == letter){
+//         counter++
+        
+//     }
+// }
+// console.log(`${a} has ${letter} => ${counter}`)
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// end  to check the number of occurence of a character in loop 
