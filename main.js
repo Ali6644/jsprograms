@@ -393,3 +393,30 @@
 // console.log(`${a} has ${letter} => ${counter}`)
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
 // end  to check the number of occurence of a character in loop 
+
+
+
+
+
+
+// start to check end charachter and start charcter
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// let a = prompt("enter the your favoirate name");
+// let letterStart = prompt("enter to check your first letter is correct or not");
+// let letterend = prompt("enter to check your last letter is correct or not");
+// let letterChStart = a.startsWith(letterStart);
+// let letterChEnd = a.endsWith(letterend);
+// if(letterChStart == true){
+//     console.log(`your first charachter is correct`)
+// }else{
+//     console.log("your first character is uncorrect")
+// }
+
+// if(letterChEnd == true){
+//     console.log(`your last charachter is correct`)
+// }else{
+//     console.log("your last character is uncorrect")
+// }
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// end to check end charachter and start charcter 
