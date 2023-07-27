@@ -342,3 +342,34 @@
 
 
 
+// start to confirm  it is palindrom string or not 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// let a = prompt("enter your name to check palindrom or not")
+// let lenth = a.length
+
+// let stringArray = a.split('')
+// let  stringArrayrev = stringArray.reverse()
+// // console.log(stringArrayrev)
+// let stringback =  stringArrayrev.join('')
+// // console.log(stringback)
+
+// if (stringback == a ){
+//     console.log("it is the palindrom string")
+// }else{
+//     console.log("it is not the palindrom number")
+// }
+
+// check palindrome by loop
+
+// let d = prompt("enter a number to get know about palindrome string or not ")
+// let len = d.length;
+// for(let i = 0; i <len/2 ; i++){
+//     if(d[i] == d[len -1 -i] ){
+//         console.log("it is palindrome number ")
+
+//     }else {
+//         console.log("it is not palindrome number")
+// }
+// }
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// end to confirm  it is palindrom string or not 
