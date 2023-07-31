@@ -359,6 +359,8 @@
 //     console.log("it is not the palindrom number")
 // }
 
+
+
 // check palindrome by loop
 
 // let d = prompt("enter a number to get know about palindrome string or not ")
@@ -420,3 +422,74 @@
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
 // end to check end charachter and start charcter 
+
+
+
+
+
+// start to check sub string in javascript  
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// let a = prompt("enter a string to check sub string exists or not")
+// let b = prompt("enter your sub string to check")
+// let res = a.includes(b)
+
+// if(res == true){
+//     console.log("your sub string is exist")
+// }else{
+//     console.log("your sub string is not exist")
+// }
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// end to check sub string in javascript  
+
+
+
+
+
+// start to captilize string's first character 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// let a = prompt("")
+// let firstLetter = a.charAt(0)
+// firstLetter = firstLetter.toUpperCase()
+// let remaing = a.slice(1)
+// // console.log(remaing) 
+
+// let caps = firstLetter + remaing
+// console.log(caps)
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// end to captilize string's first character 
+
+
+
+
+// start make all string's word should be have first letter capitle 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// let a = ["huziafa" , "iqbal" , "bhatti" , "from" , "kunri"]
+
+// // let toarry = toarry[a]
+// let each = a.forEach(function (index){
+
+//      let c = index.charAt(0);
+//      let first = c.toUpperCase();
+//      let rem = index.slice(1);
+//      let final1 = first + rem ;
+     
+//     console.log(final1)
+// });
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+// start make all string's word should be have first letter capitle 
+
+
+
+
+//start how to check vowels in your string 
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+let a = prompt("ente a string to know how many vowels you have")
+let reg = /[eioua]/gi;
+let match = a.match(reg)
+console.log(match.length)
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++>
+//start how to check vowels in your string 
